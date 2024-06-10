@@ -1,0 +1,21 @@
+.malclip{
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 75% 100%, 38% 73%, 0 88%);
+}
+
+.malsideclipleft{
+    clip-path: polygon(0 0, 100% 15%, 100% 85%, 0% 100%);
+}
+.malsideclipright{
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 85%);
+}
+.malimgclip{
+    clip-path: polygon(71% 1%, 99% 5%, 96% 51%, 100% 96%, 67% 93%, 35% 100%, 4% 95%, 0 45%, 3% 0, 33% 7%);
+}
+.maltxtclip{
+    clip-path: polygon(95% 4%, 97% 22%, 98% 53%, 98% 98%, 67% 100%, 33% 98%, 5% 100%, 0 44%, 6% 3%, 35% 0);
+}
+.malfade{
+    -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image: linear-gradient(transparent, black);
+}
+
